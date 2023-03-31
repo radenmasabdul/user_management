@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import Layout from "../components/Layout.vue";
+</script>
 
 <template>
-  <h1 class="text-red-500 text-4xl">Hello Vue JS</h1>
+  <Layout />
 </template>
