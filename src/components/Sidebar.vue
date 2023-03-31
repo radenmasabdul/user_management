@@ -8,7 +8,6 @@
         <!-- Sidebar content here -->
         <li><a>Dashboard</a></li>
         <li><a>Inbox / Notifications</a></li>
-        <!-- <li><a>Travel Management System</a></li> -->
         <div class="dropdown dropdown-bottom">
           <li tabindex="0">
             <a class="justify-between">
@@ -52,7 +51,6 @@
             </ul>
           </li>
         </div>
-        <!-- <li><a>Facility Service System</a></li> -->
         <div class="dropdown dropdown-bottom">
           <li tabindex="0">
             <a class="justify-between">
