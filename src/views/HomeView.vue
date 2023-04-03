@@ -1,7 +1,9 @@
 <script setup>
-import Layout from "../components/Layout.vue";
+import DataChart from "../components/chart/DataChart.vue";
 </script>
 
 <template>
-  <Layout />
+  <div class="pt-20 sm:pl-[350px] sm:pr-8">
+    <DataChart />
+  </div>
 </template>

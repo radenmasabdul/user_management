@@ -6,8 +6,8 @@
       <label for="my-drawer-2" class="drawer-overlay"></label>
       <ul class="menu p-4 w-80 h-full bg-base-100 text-base-content border">
         <!-- Sidebar content here -->
-        <li><a>Dashboard</a></li>
-        <li><a>Inbox / Notifications</a></li>
+        <li><RouterLink to="/">Dashboard</RouterLink></li>
+        <li><RouterLink to="/about">Inbox / Notifications</RouterLink></li>
         <div class="dropdown dropdown-bottom">
           <li tabindex="0">
             <a class="justify-between">
@@ -78,4 +78,7 @@
     </div>
   </div>
 </template>
-<script setup></script>
+
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
