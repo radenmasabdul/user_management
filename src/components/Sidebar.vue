@@ -81,4 +81,16 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+
+// let isOpen = false;
+// let isSubOpen = false;
+
+// const toggleDropdown = () => {
+//   console.log("Dropdown clicked");
+//   isOpen = !isOpen;
+// };
+
+// const toggleSubDropdown = () => {
+//   isSubOpen = !isSubOpen;
+// };
 </script>
